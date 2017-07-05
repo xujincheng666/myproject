@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 2000px;
+}
+#body {
+  background-image: url("../img/beijing.png");
+  text-align: center;
+  height: 690px;
+  overflow: hidden;
+}
+#logo {
+  width: 300px;
+  height: 100px;
+  position: relative;
+  bottom: -25px;
+}
+#all {
+  width: 1300px;
+  height: 500px;
+  position: relative;
+}
+#all #scren {
+  overflow: hidden;
+  width: 1300px;
+  height: 500px;
+}
+#all #scren ul {
+  list-style: none;
+  width: 6000px;
+}
+#all #scren ul li {
+  float: left;
+}
+#head {
+  background: #bebebe;
+  opacity: 0.6;
+  height: 45px;
+  width: 100%;
+}
+#head #ul1 {
+  position: absolute;
+  left: 200px;
+  height: 45px;
+  list-style: none;
+}
+#head #ul1 li {
+  height: 45px;
+  list-style: none;
+  display: inline;
+  line-height: 45px;
+}
+#head #ul1 li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  padding-left: 10px;
+}
+#head #ul2 {
+  position: absolute;
+  right: 100px;
+  height: 45px;
+  list-style: none;
+}
+#head #ul2 li {
+  height: 45px;
+  list-style: none;
+  display: inline;
+  line-height: 45px;
+}
+#head #ul2 li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  padding-left: 10px;
+}
+#content {
+  margin-top: 50px;
+  height: 200px;
+}
+#content img {
+  position: relative;
+  left: 50px;
+}
+#content #dujiabochu b {
+  font-size: 20px;
+  position: relative;
+  left: 50px;
+  top: 10px;
+}
+#content #diyiji b {
+  font-size: 20px;
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+#content #gengxin {
+  position: relative;
+  left: 150px;
+  top: 10px;
+}
+#jishu {
+  height: 150px;
+}
+#jishu li {
+  position: relative;
+  left: 50px;
+  width: 16%;
+  list-style: none;
+  display: inline;
+  float: left;
+  margin-left: 20px;
+}
+#jishu li a {
+  background: url("../img/shipin.png") no-repeat;
+  text-align: center;
+  text-decoration: none;
+  color: #8f6d40;
+}
+#jishu li a img {
+  width: 100%;
+  height: 100%;
+}
